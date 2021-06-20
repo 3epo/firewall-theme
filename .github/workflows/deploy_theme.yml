@@ -9,9 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - name: Farewall Theme
-        uses: 3epo/firewall-theme
+        uses: ./
         with:
           api-url: ${{ secrets.FIREWALL_THEME_API_URL }}
           api-key: ${{ secrets.FIREWALL_THEME_API_KEY }}
