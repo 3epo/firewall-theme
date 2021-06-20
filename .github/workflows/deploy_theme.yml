@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: ./
       - name: Farewall Theme
+      uses: ./
         with:
           api-url: ${{ secrets.FIREWALL_THEME_API_URL }}
           api-key: ${{ secrets.FIREWALL_THEME_API_KEY }}
