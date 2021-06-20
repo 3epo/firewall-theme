@@ -1,0 +1,17 @@
+
+name: Firewall Theme
+on:
+  push:
+    branches:
+      - master
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Farewall Theme
+        uses: 3epo/firewall-theme@v1.0.0
+        with:
+          api-url: ${{ secrets.FIREWALL_THEME_API_URL }}
+          api-key: ${{ secrets.FIREWALL_THEME_API_KEY }}
