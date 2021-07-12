@@ -1,8 +1,7 @@
 {
   "author": {
-    "email": "root@firewall,uz",
-    "name": "Andrey Orlov",
-    "url": "https://firewall.uz"
+    "email": "root@firewall.uz",
+    "name": "Andrey ZerO Orlov",
   },
   "config": {
     "posts_per_page": 10,
@@ -27,8 +26,7 @@
       }
     }
   },
-  "demo": "https://firewall.uz",
-  "description": "Ghost CMS theme for firewall.uz by Andrey Orlov",
+  "description": "Beautiful and clean theme that is easy and comfortable to use.",
   "engines": {
     "ghost": ">=4.0.0",
     "ghost-api": "v4"
@@ -54,5 +52,5 @@
     "desktop": "assets/screenshot-desktop.jpg",
     "mobile": "assets/screenshot-mobile.jpg"
   },
-  "version": "1.0.0"
+  "version": "1.0.4"
 }
