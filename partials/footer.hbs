@@ -10,11 +10,9 @@ This footer template is shared across all the pages.
       </nav>
     {{/if}}
     <nav class="m-footer-social">
-      {{#if @site.facebook}}
-        <a href="{{facebook_url @site.facebook}}" target="_blank" rel="noopener" aria-label="Facebook">
-          <span class="icon-facebook" aria-hidden="true"></span>
+        <a href="{{facebook_url @site.facebook}}" target="_blank" rel="noopener" aria-label="Telegram">
+          <span class="icon-telegram" aria-hidden="true"></span>
         </a>
-      {{/if}}
       {{#if @site.twitter}}
         <a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener" aria-label="Twitter">
           <span class="icon-twitter" aria-hidden="true"></span>
@@ -25,8 +23,7 @@ This footer template is shared across all the pages.
       </a>
     </nav>
     <p class="m-footer-copyright">
-      <span>{{@site.url}} &copy; {{date format="YYYY"}}</span>
-      <span>&nbsp; &bull; &nbsp;</span>
+      <span>{{@site.title}}.uz &copy; {{date format="YYYY"}}</span>
     </p>
   </div>
 </footer>
