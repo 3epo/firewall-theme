@@ -17,13 +17,13 @@ This footer template is shared across all the pages.
         <span class="icon-rss" aria-hidden="true"></span>
       </a>
     </nav>
-    <p class="m-footer-copyright">
-      <span>{{@site.title}}.uz &copy; {{date format="YYYY"}}</span>
-    </p>
     {{#if @site.secondary_navigation}}
       <nav class="m-footer__nav-secondary" role="navigation" aria-label="{{t "Secondary menu in footer"}}">
         {{navigation type="secondary"}}
       </nav>
     {{/if}}
+    <p class="m-footer-copyright">
+      <span>{{@site.title}}.uz &copy; {{date format="YYYY"}}</span>
+    </p>
   </div>
 </footer>
