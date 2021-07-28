@@ -4,11 +4,6 @@ This footer template is shared across all the pages.
 
 <footer class="m-footer">
   <div class="m-footer__content">
-    {{#if @site.secondary_navigation}}
-      <nav class="m-footer__nav-secondary" role="navigation" aria-label="{{t "Secondary menu in footer"}}">
-        {{navigation type="secondary"}}
-      </nav>
-    {{/if}}
     <nav class="m-footer-social">
         <a href="https://t.me/andreyzero" target="_blank" rel="noopener" aria-label="Telegram">
           <span class="icon-telegram" aria-hidden="true"></span>
@@ -25,5 +20,10 @@ This footer template is shared across all the pages.
     <p class="m-footer-copyright">
       <span>{{@site.title}}.uz &copy; {{date format="YYYY"}}</span>
     </p>
+    {{#if @site.secondary_navigation}}
+      <nav class="m-footer__nav-secondary" role="navigation" aria-label="{{t "Secondary menu in footer"}}">
+        {{navigation type="secondary"}}
+      </nav>
+    {{/if}}
   </div>
 </footer>
