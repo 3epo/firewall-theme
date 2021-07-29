@@ -303,11 +303,11 @@ textarea {
 	--titles-color: #333;
 	--link-color: #133467;
 	--primary-border-color: #9b9b9b;
-	--secondary-border-color: #f0f8ff;
-	--article-shadow-normal: 0 10px 10px rgba(0, 0, 0, 0.08);
-	--article-shadow-hover: 0 4px 60px 0 rgba(0, 0, 0, 0.2);
+	--secondary-border-color: #e7e5e5;
+	--article-shadow-normal: 0 10px 10px rgb(0 0 0 / 11%);
+	--article-shadow-hover: 0 4px 60px 0 rgb(44 153 239);
 	--transparent-background-color: hsla(0, 0%, 100%, 0.99);
-	--footer-background-color: #133467;
+	--footer-background-color: #192a34;
 	--submenu-shadow-color-opacity: 0.25;
 	--button-shadow-color-normal: hsla(0, 0%, 42.4%, 0.2);
 	--button-shadow-color-hover: hsla(0, 0%, 42.4%, 0.3);
