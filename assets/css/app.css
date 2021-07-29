@@ -305,7 +305,7 @@ textarea {
 	--primary-border-color: #9b9b9b;
 	--secondary-border-color: #e7e5e5;
 	--article-shadow-normal: 0 10px 10px rgb(0 0 0 / 11%);
-	--article-shadow-hover: 0 4px 60px 0 rgb(44 153 239);
+	--article-shadow-hover: 0 10px 30px 0 rgb(44 153 239 / 47%);
 	--transparent-background-color: hsla(0, 0%, 100%, 0.99);
 	--footer-background-color: #192a34;
 	--submenu-shadow-color-opacity: 0.25;
