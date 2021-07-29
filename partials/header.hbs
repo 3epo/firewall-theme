@@ -29,8 +29,7 @@ This header template is shared across all the pages.
       <div class="l-wrapper">
         <div class="m-nav js-main-nav">
           <nav class="m-nav__left js-main-nav-left" role="navigation" aria-label="{{t "Main menu"}}">
-            <ul>
-              {{#if @site.logo}}
+          {{#if @site.logo}}
                 <li class="only-desktop">
                   <a href="{{@site.url}}" class="m-logo">
                     <img src="{{@site.logo}}" alt="{{@site.title}}">
@@ -43,6 +42,7 @@ This header template is shared across all the pages.
                   </a>
                 </li>
               {{/if}}
+            <ul>
               {{#if @site.navigation}}
                 {{navigation}}
               {{/if}}
