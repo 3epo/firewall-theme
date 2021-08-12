@@ -1495,8 +1495,6 @@ fieldset {
 }
 
 .m-nav__left ul:not(.m-secondary-menu) {
-    margin-left: 230px;
-    margin-right: 200px;
     line-height: 70px
 }
 
