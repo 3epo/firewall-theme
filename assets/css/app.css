@@ -1495,7 +1495,6 @@ fieldset {
 }
 
 .m-nav__left ul:not(.m-secondary-menu) {
-    font-size: 2rem;
     margin-left: 230px;
     margin-right: 200px;
     line-height: 70px
@@ -1643,6 +1642,7 @@ fieldset {
 	opacity: 1;
 	z-index: 10;
 	transform: scale(1)
+	font-size: 2rem;
 }
 
 @media only screen and (min-width:48rem) {
