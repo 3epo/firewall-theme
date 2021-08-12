@@ -1495,8 +1495,9 @@ fieldset {
 }
 
 .m-nav__left ul:not(.m-secondary-menu) {
-	padding: 0;
-	margin: 0
+	font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (min-width:48rem) {
