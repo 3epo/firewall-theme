@@ -325,7 +325,7 @@ textarea {
 	--primary-foreground-color: #fff;
 	--secondary-foreground-color: #fff;
 	--primary-subtle-color: #3071e7;
-	--secondary-subtle-color: #161e35;
+	--secondary-subtle-color: #141920;
 	--titles-color: #fff;
 	--link-color: #a6b2ec;
 	--primary-border-color: #a6b2ec;
@@ -333,7 +333,7 @@ textarea {
 	--article-shadow-normal: 0 0px 13px 9px rgb(78 78 78 / 10%);
 	--article-shadow-hover: 0 0px 25px 0 rgb(48 113 231 / 60%);
 	--transparent-background-color: rgba(0, 0, 0, 0.99);
-	--footer-background-color: #161e35;
+	--footer-background-color: #111;
 	--submenu-shadow-color-opacity: 0.55;
 	--button-shadow-color-normal: rgba(10, 10, 10, 0.5);
 	--button-shadow-color-hover: rgba(10, 10, 10, 0.5);
@@ -351,7 +351,7 @@ textarea {
 	--primary-foreground-color: #fff;
 	--secondary-foreground-color: #fff;
 	--primary-subtle-color: #3071e7;
-	--secondary-subtle-color: #161e35;
+	--secondary-subtle-color: #141920;
 	--titles-color: #fff;
 	--link-color: #a6b2ec;
 	--primary-border-color: #a6b2ec;
@@ -359,7 +359,7 @@ textarea {
 	--article-shadow-normal: 0 0px 13px 9px rgb(78 78 78 / 10%);
 	--article-shadow-hover: 0 0px 25px 0 rgb(48 113 231 / 60%);
 	--transparent-background-color: rgba(0, 0, 0, 0.99);
-	--footer-background-color: #161e35;
+	--footer-background-color: #111;
 	--submenu-shadow-color-opacity: 0.55;
 	--button-shadow-color-normal: rgba(10, 10, 10, 0.5);
 	--button-shadow-color-hover: rgba(10, 10, 10, 0.5);
