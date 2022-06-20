@@ -321,7 +321,7 @@ textarea {
 }
 
 [data-theme=dark] {
-	--background-color: #111;
+	--background-color: #082032;
 	--primary-foreground-color: #ccc;
 	--secondary-foreground-color: #fff;
 	--primary-subtle-color: #2c2fe6;
