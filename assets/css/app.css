@@ -1121,7 +1121,7 @@ fieldset{
     -o-object-fit: contain;
     object-fit: contain;
     margin-bottom: 16px;
-    margin-right: 125;
+    margin-right: 125px;
 }
 .m-logo img.m-logo__image-light{
     display:var(--toggle-darkmode-button-display-moon)
