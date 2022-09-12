@@ -253,7 +253,7 @@ template{
     --toggle-darkmode-button-display-moon: none;
     --toggle-darkmode-button-display-sun: block;
     --header-menu-gradient-first-color: rgba(17, 17, 17, 0);
-    --header-menu-gradient-second-color: rgb(8, 12, 37);
+    --header-menu-gradient-second-color: rgba(17, 17, 17, 0);
 }
 .hide{
     display:none
@@ -1129,6 +1129,7 @@ fieldset{
 .m-logo.in-mobile-topbar{
     height:30px;
     margin:0 20px
+    margin-right: auto;
 }
 .m-site-name.in-mobile-topbar{
     color:var(--titles-color);
