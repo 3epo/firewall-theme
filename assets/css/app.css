@@ -1193,9 +1193,9 @@ fieldset{
 }
 .m-nav__left li{
     color:var(--titles-color);
-    font-size:1.125rem;
-    letter-spacing:.3px;
-    margin-bottom:15px
+    letter-spacing: .3px;
+    font-size: 1.125rem;
+    margin-bottom: 15px
 }
 @media only screen and (min-width:48rem){
     .m-nav__left li{
@@ -1295,6 +1295,7 @@ fieldset{
     transform:scale(1);
     visibility:visible;
     z-index:10
+    font-size: 2rem;
 }
 @media only screen and (min-width:48rem){
     .m-menu{
