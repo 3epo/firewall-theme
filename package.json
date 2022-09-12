@@ -31,7 +31,7 @@
   "description": "Special for site firewall.uz",
   "engines": {
     "ghost": ">=4.0.0",
-    "ghost-api": "v4"
+    "ghost-api": "v5"
   },
   "gpm": {
     "type": "theme",
