@@ -1127,7 +1127,7 @@ fieldset{
     display:var(--toggle-darkmode-button-display-sun)
 }
 .m-logo.in-mobile-topbar{
-    height:30px;
+    height:25px;
     margin-left: 95px;
 }
 .m-site-name.in-mobile-topbar{
