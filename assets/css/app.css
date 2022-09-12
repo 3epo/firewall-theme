@@ -1058,7 +1058,7 @@ fieldset{
     position:fixed;
     top:0;
     transition:transform .4s cubic-bezier(.165,.84,.44,1);
-    width:95%;
+    width:100%;
     will-change:transform;
     z-index:4
 }
