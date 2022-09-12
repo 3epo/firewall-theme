@@ -1127,7 +1127,7 @@ fieldset{
     display:var(--toggle-darkmode-button-display-sun)
 }
 .m-logo.in-mobile-topbar{
-    height:25px;
+    height:30px;
     margin-left: 95px;
 }
 .m-site-name.in-mobile-topbar{
@@ -1247,7 +1247,7 @@ fieldset{
         background:linear-gradient(90deg,var(--header-menu-gradient-first-color) 0,var(--header-menu-gradient-second-color));
         content:"";
         height:100%;
-        /*left:-20px;*/
+        left:-20px;
         pointer-events:none;
         position:absolute;
         top:0;
