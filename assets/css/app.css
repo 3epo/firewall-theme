@@ -1119,7 +1119,7 @@ fieldset{
     max-width: 150px;
     height: 100%;
     -o-object-fit: contain;
-    object-fit: contain
+    object-fit: contain;
     margin-bottom: 16px;
 }
 .m-logo img.m-logo__image-light{
