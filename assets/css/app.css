@@ -764,7 +764,8 @@ fieldset{
     opacity:.5
 }
 .m-icon-button.in-mobile-topbar{
-    padding-right: 20px;
+    height:50px;
+    width:50px;
 }
 .m-icon-button.as-close-menu{
     font-size:.625rem;
@@ -1127,7 +1128,7 @@ fieldset{
 }
 .m-logo.in-mobile-topbar{
     height:30px;
-    margin-left: 75px;
+    margin-left: 95px;
 }
 .m-site-name.in-mobile-topbar{
     color:var(--titles-color);
