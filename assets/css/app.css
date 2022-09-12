@@ -764,8 +764,7 @@ fieldset{
     opacity:.5
 }
 .m-icon-button.in-mobile-topbar{
-    height:50px;
-    width:50px
+    padding-right: 20px;
 }
 .m-icon-button.as-close-menu{
     font-size:.625rem;
