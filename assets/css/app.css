@@ -1110,6 +1110,7 @@ fieldset{
 .m-logo{
     display:inline-block;
     height:35px
+    margin-right: 125px;
 }
 .m-logo img{
     width: auto;
@@ -1118,7 +1119,6 @@ fieldset{
     -o-object-fit: contain;
     object-fit: contain;
     margin-bottom: 16px;
-    margin-right: 125px;
 }
 .m-logo img.m-logo__image-light{
     display:var(--toggle-darkmode-button-display-moon)
@@ -1128,7 +1128,6 @@ fieldset{
 }
 .m-logo.in-mobile-topbar{
     height:30px;
-    margin:0 20px
     margin-left: 125px;
 }
 .m-site-name.in-mobile-topbar{
