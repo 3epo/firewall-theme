@@ -1129,7 +1129,7 @@ fieldset{
 .m-logo.in-mobile-topbar{
     height:30px;
     margin:0 20px
-    margin-right: auto;
+    margin-left: 125px;
 }
 .m-site-name.in-mobile-topbar{
     color:var(--titles-color);
