@@ -52,6 +52,16 @@ This header template is shared across all the pages.
               {{#if @site.navigation}}
                 {{navigation}}
               {{/if}}
+              {{#if @site.secondary_navigation}}
+                <li class="more">
+                  <span>
+                    <a href="javascript:void(0);" class="js-open-secondary-menu">
+                      {{t "Open submenu"}}
+                      <span class="icon-chevron-down" aria-hidden="true"></span>
+                    </a>
+                  </span>
+                </li>
+              {{/if}}
             </ul>
           </nav>
           <div class="m-nav__right">
