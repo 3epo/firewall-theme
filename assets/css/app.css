@@ -1421,7 +1421,8 @@ fieldset {
     max-width: 150px;
     height: 100%;
     -o-object-fit: contain;
-    object-fit: contain
+    object-fit: contain;
+    margin-bottom: 15px;
 }
 
 .m-logo.in-mobile-topbar {
