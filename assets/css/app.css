@@ -342,7 +342,7 @@ textarea {
     --toggle-darkmode-button-display-moon: none;
     --toggle-darkmode-button-display-sun: block;
     --header-menu-gradient-first-color: rgba(17, 17, 17, 0);
-    --header-menu-gradient-second-color: rgb(8, 12, 37);
+    --header-menu-gradient-second-color: rgb(17, 17, 17, 0);
 }
 
 @media (prefers-color-scheme:dark) {
